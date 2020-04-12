@@ -1,4 +1,5 @@
 * {
+box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
@@ -16,7 +17,6 @@ background-size: cover;
 }
 
 .section {
-background-color: black;
 width: 1440px;
 max-width: 100%;
 height: 1080px;
@@ -26,25 +26,25 @@ margin: 0 auto;
 .header {
 width: 100%;
 height: 100px;
-background-color: brown;
+
 }
 
 .main {
 width: 100%;
 height: 450px;
-background-color: darkblue;
+border: 2px dashed white;
 }
 
 .content {
 width: 100%;
 height: 450px;
-background-color: bisque;
+border: 2px dashed white;
 }
 
 .door {
 width: 100%;
 height: 80px;
-background-color: darkgreen;
+border: 2px dashed white;
 }
 
 img {
@@ -55,7 +55,7 @@ a {
 text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 font-family: Courier, monospace;
 font-size: 20px;
-color: black;
+color: white;
 text-transform: uppercase;
 display: inline-block;
 float: right;
