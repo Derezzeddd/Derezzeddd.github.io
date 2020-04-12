@@ -21,19 +21,18 @@ width: 1440px;
 max-width: 100%;
 height: 1080px;
 margin: 0 auto;
-opacity: 0.5;
 }
 
 .header {
 width: 100%;
 height: 100px;
-background-color: blueviolet; 
+background-color: brown;
 }
 
 .main {
 width: 100%;
 height: 450px;
-background-color: aqua;
+background-color: darkblue;
 }
 
 .content {
@@ -46,6 +45,23 @@ background-color: bisque;
 width: 100%;
 height: 80px;
 background-color: darkgreen;
+}
+
+img {
+width: 100px;
+}
+
+a {
+text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+font-family: Courier, monospace;
+font-size: 20px;
+color: black;
+text-transform: uppercase;
+display: inline-block;
+float: right;
+margin-top: 70px;
+margin-right: 20px;
+text-decoration: none;
 }
 
 
