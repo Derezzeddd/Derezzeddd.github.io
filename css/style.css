@@ -1,3 +1,8 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
 background-color: #000;
 background-image: url(../imges/backg.jpg);
@@ -5,4 +10,50 @@ background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+-o-background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size: cover; 
 }
+
+.section {
+background-color: black;
+width: 1440px;
+max-width: 100%;
+height: 1080px;
+margin: 0 auto;
+opacity: 0.5;
+}
+
+.header {
+width: 100%;
+height: 100px;
+background-color: blueviolet; 
+}
+
+.main {
+width: 100%;
+height: 450px;
+background-color: aqua;
+}
+
+.content {
+width: 100%;
+height: 450px;
+background-color: bisque;
+}
+
+.door {
+width: 100%;
+height: 80px;
+background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
