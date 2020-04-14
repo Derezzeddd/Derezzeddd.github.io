@@ -1,0 +1,169 @@
+@media only screen and (max-width: 1360px) {
+    .block {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .block2 {
+        width: 426px;
+        margin-left: 14px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        width: 850px;
+    }    
+    .block {
+        width: 152px;
+        height: 152px;
+        background-color: brown;
+        margin-bottom: 30px;
+    }
+    .block2 {
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 175px;
+}
+    .one {
+        margin-top: 0px;
+}
+    .sub {
+        margin-left: 136px;
+    }
+    .like {
+        margin-left: 194.75px;
+    }
+    .pack {
+        margin-left: 60.5px;
+    }
+    .textfooter {
+        margin-left: 290px;
+        font-size: 25px;
+    }
+    
+}
+    
+    
+@media only screen and (max-width: 768px) {
+    .section {
+        width: 600px;  
+    } 
+    .block {
+        width: 100px;
+        height: 100px;
+        background-color: brown;
+        margin-left: 13px;
+    }
+    .block2 {
+        margin-left: 50px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    .section {
+        width: 420px;
+    }
+    .block {
+        width: 230px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: 20px;
+        display: flex;
+}
+    .block2 {
+        margin-left: 0;
+        width: 420px;
+}
+    a {
+        font-size: 21px;
+    }
+    .batton {
+        width: 180px;
+}
+    .one2 {
+        margin-top: 30px;
+}
+    .textblock2 {
+        font-size: 25px;
+    }
+    .sub {
+        margin-left: 113.25px;
+    }
+    .like {
+        margin-left: 163px;
+    }
+    .pack {
+        margin-left: 49px;
+    }
+    .textfooter {
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    .teleg {
+    margin: 0 80px 0 0;
+        float: right;
+    }
+    .What {
+        margin-right: 10px;
+        float: right;
+    }
+    .door {
+        margin-top: -15px;
+       
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .section {width: 320px;}
+    
+    a {font-size: 12px; color: aliceblue;}
+    .block {
+        margin-left: 40px;
+    }
+    .block2 {
+        width: 316px;
+}
+    .block:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .batton {
+        width: 130px;
+    }
+    
+    .logo {
+        width: 180px;
+    }
+    .textblock2 {
+        font-size: 18px;
+    }
+    .sub {
+        margin-left: 85.5px;
+    }
+    .like {
+        margin-left: 123px;
+    }
+    .pack {
+        margin-left: 36.75px;
+    }
+    .textfooter {
+        margin-top: 8px;
+        margin-left: 35px;
+        font-size: 18px;
+    }
+    .What {
+        
+    }
+    .teleg {
+        margin-right: 45px;
+        width: 28px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
